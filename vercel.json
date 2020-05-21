@@ -1,0 +1,6 @@
+{
+  "version": 2,
+  "rewrites": [
+    { "source": "/(.*)", "destination": "https://cloudflare-ipfs.com/ipfs/QmbrWhSHjtqK7VEcTWnHdz8X9omwd9mrjNPkJTt1h7WPCG/#/$1" }
+  ]
+}
