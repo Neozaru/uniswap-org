@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "rewrites": [
+  "redirects": [
     {
       "source": "/(.*)",
-      "destination": "https://cloudflare-ipfs.com/ipns/app.uniswap.org/$1"
+      "destination": "https://cloudflare-ipfs.com/ipns/app.uniswap.org/#/$1",
+      "permanent": false
     }
   ]
 }
